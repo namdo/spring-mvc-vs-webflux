@@ -8,11 +8,11 @@
     <version>2.3.5.RELEASE</version>
     <relativePath/> <!-- lookup parent from repository -->
   </parent>
-  <groupId>com.dohongnam</groupId>
-  <artifactId>spring-mvc-vs-webflux</artifactId>
+  <groupId>com.dohongnam.spring</groupId>
+  <artifactId>client-webflux</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>spring-mvc-vs-webflux</name>
-  <description>Spring Boot performance</description>
+  <name>client-webflux</name>
+  <description>Demo project for Spring Boot</description>
 
   <properties>
     <java.version>11</java.version>
@@ -21,24 +21,23 @@
   <dependencies>
     <dependency>
       <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter</artifactId>
+      <artifactId>spring-boot-starter-webflux</artifactId>
     </dependency>
 
     <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-test</artifactId>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <optional>true</optional>
+    </dependency>
+
+    <dependency>
+      <groupId>io.projectreactor</groupId>
+      <artifactId>reactor-test</artifactId>
       <scope>test</scope>
-      <exclusions>
-        <exclusion>
-          <groupId>org.junit.vintage</groupId>
-          <artifactId>junit-vintage-engine</artifactId>
-        </exclusion>
-      </exclusions>
     </dependency>
   </dependencies>
 
   <build>
-    <defaultGoal>spring-boot:run</defaultGoal>
     <plugins>
       <plugin>
         <groupId>org.springframework.boot</groupId>
