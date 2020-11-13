@@ -8,7 +8,7 @@
     <version>2.3.5.RELEASE</version>
     <relativePath/> <!-- lookup parent from repository -->
   </parent>
-  <groupId>com.dohongnam.spring</groupId>
+  <groupId>io.github.namdo.spring</groupId>
   <artifactId>client-mvc</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>client-mvc</name>
@@ -33,6 +33,7 @@
   </dependencies>
 
   <build>
+    <defaultGoal>spring-boot:run</defaultGoal>
     <plugins>
       <plugin>
         <groupId>org.springframework.boot</groupId>

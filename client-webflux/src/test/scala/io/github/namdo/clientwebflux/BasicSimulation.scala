@@ -1,4 +1,4 @@
-package com.dohongnam.spring.clientwebflux
+package io.github.namdo.spring.clientwebflux
 
 import io.gatling.core.Predef._
 import io.gatling.http.Predef._
@@ -19,7 +19,7 @@ class BootLoadSimulation extends Simulation {
     exec(http("webflux-test")
       .get(webFluxEndpoint)
       .header("Content-Type", contentType)
-     .check(status.is(200)))
+      .check(status.is(200)))
   }
   private val completableFutureTest = repeat(requestCount) {
     exec(http("completable-future-apache-client")

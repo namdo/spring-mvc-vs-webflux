@@ -1,4 +1,4 @@
-package com.dohongnam.spring.clientwebflux.controller;
+package io.github.namdo.clientwebflux.controller;
 
 import java.net.URI;
 import java.net.http.HttpClient;

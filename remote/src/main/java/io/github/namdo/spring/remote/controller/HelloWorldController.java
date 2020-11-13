@@ -1,4 +1,4 @@
-package com.dohongnam.spring.remote.controller;
+package io.github.namdo.spring.remote.controller;
 
 import java.time.Duration;
 
@@ -19,4 +19,5 @@ public class HelloWorldController {
   public Mono<String> sayHelloWorld(@RequestParam final long delay) {
     return Mono.just("Hello World!").delayElement(Duration.ofMillis(delay));
   }
+
 }

@@ -1,4 +1,4 @@
-package com.dohongnam.spring.clientmvc.controller;
+package io.github.namdo.spring.clientmvc.controller;
 
 import lombok.RequiredArgsConstructor;
 
