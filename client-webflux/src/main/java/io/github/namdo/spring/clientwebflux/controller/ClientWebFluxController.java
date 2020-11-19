@@ -1,4 +1,4 @@
-package io.github.namdo.clientwebflux.controller;
+package io.github.namdo.spring.clientwebflux.controller;
 
 import java.net.URI;
 import java.net.http.HttpClient;

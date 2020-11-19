@@ -1,4 +1,4 @@
-package io.github.namdo.clientwebflux;
+package io.github.namdo.spring.clientwebflux;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
